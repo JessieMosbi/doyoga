@@ -1,0 +1,11 @@
+.navbar-brand {
+  display: block;
+  width: 96px;
+  height: 31px;
+  background-image: url("../images/DOYOGA-logo.png");
+  background-size: cover;
+
+  text-indent: 101%; /* 文字縮排，縮到超出 100% 來到外面 */
+  white-space: nowrap; /* 空白字元不要換行，保持超出 */
+  overflow: hidden; /* 超出部分隱藏 */
+}
