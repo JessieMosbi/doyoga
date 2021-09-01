@@ -25,3 +25,10 @@
 .teaching-img {
   height: 628px;
 }
+
+.teaching-teacher-1 {
+  // at least the minimum breakpoint width
+  @include media-breakpoint-up(lg) {
+    margin-left: -95px; // 一個 col + 一個 gutter
+  }
+}
